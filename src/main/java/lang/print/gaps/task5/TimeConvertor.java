@@ -1,6 +1,13 @@
 package lang.print.gaps.task5;
 
+
 public class TimeConvertor {
-    public void convert(float minutes) {
+
+    public void convert(float minutes){
+            float sec;
+            sec = minutes * 60;
+            System.out.println(sec);
+        }
     }
-}
+
+
