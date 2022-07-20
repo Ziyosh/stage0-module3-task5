@@ -4,13 +4,14 @@ import java.util.Enumeration;
 
 public class NumberDivider {
     static void divide(int toBeDivided){
-            float num;
-            toBeDivided = 60;
+            int num;
+            toBeDivided = 19;
             num = toBeDivided / 5;
             System.out.println(num);
         }
         public static void main(String[] args){
-        divide(12);
+
+        divide((int) 3.8);
         }
     }
 
